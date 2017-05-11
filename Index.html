@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Anouk Garin_Maquettiste</title>
+</head>
+
+  <title>Hello World !</title>
+</head>
+
+<body>
+
+  <script>
+    alert('Hello World !');
+  </script>
+
+  <script>
+    var username = prompt('Entrez votre prénom');
+    alert(username);
+  </script>
+
+  <script>
+    var start = 'Bonjour ', name, end = '!', result;
+
+    name = prompt('Quel est votre prénom ?');
+    result = start + name + end;
+    alert(result);
+  </script>
+
+  <script>
+    var first, second, result;
+
+    first = prompt('Entrez le permier chiffre :');
+    second = prompt('Entrez le second chiffre :');
+    result = parseInt(first) + parseInt(second);
+
+    alert(result);
+  </script>
+
+  <script>
+    if (confirm('Pour accéder à ce site vous devez être majeur, cliquez sur "OK" si c\'est le cas')) {
+      alert('Vous allez être redirigé vers le site');
+    }
+
+    else {
+      alert('Désolé vous n\'avez pas accès à ce site.')
+    }
+
+  </script>
+
+  <script>
+
+    function showMsg() {
+      alert('Première fonction')
+    }
+    showMsg();
+  </script>
+</body>
+</html>
